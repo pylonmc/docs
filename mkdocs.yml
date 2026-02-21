@@ -35,34 +35,34 @@ nav:
     - Installing Pylon: home/installing-pylon.md
     - List of addons: home/list-of-addons.md
     - Commands & permissions: home/commands-and-permissions.md
-  - Creating addons:
-    - Getting started: creating-addons/getting-started.md
-    - The basics:
-      - Adding an item: creating-addons/the-basics/adding-an-item.md
-      - Running your addon: creating-addons/the-basics/running-your-addon.md
-      - Adding name & lore: creating-addons/the-basics/adding-name-and-lore.md
-      - Adding a recipe: creating-addons/the-basics/adding-a-recipe.md
-      - Adding a research: creating-addons/the-basics/adding-a-research.md
-      - Full code: creating-addons/the-basics/full-code.md
-      - Practice tasks: creating-addons/the-basics/practice-tasks.md
-    - Custom items:
-      - Adding a custom item: creating-addons/custom-items/adding-a-custom-item.md
-      - Making items configurable: creating-addons/custom-items/making-items-configurable.md
-      - Advanced lore: creating-addons/custom-items/advanced-lore.md
-      - Persistent data: creating-addons/custom-items/persistent-data.md
-      - A complete example: creating-addons/custom-items/a-complete-example.md
-      - Full code: creating-addons/custom-items/full-code.md
-      - Practice tasks: creating-addons/custom-items/practice-tasks.md
-  - Reference:
-    - Data-oriented interfaces: reference/data-oriented-interfaces.md
-    - Fluids: reference/fluids.md
-    - Cargo: reference/cargo.md
-    - Internationalization: reference/i18n.md
-  - Javadocs: javadocs.md
-  - Contributing:
-    - Getting started: contributing/getting-started.md
-    - The Pylon Master Project: contributing/master-project.md
-    - Contributing to docs: contributing/contributing-to-docs.md
+  #- Creating addons:
+  #  - Getting started: creating-addons/getting-started.md
+  #  - The basics:
+  #    - Adding an item: creating-addons/the-basics/adding-an-item.md
+  #    - Running your addon: creating-addons/the-basics/running-your-addon.md
+  #    - Adding name & lore: creating-addons/the-basics/adding-name-and-lore.md
+  #    - Adding a recipe: creating-addons/the-basics/adding-a-recipe.md
+  #    - Adding a research: creating-addons/the-basics/adding-a-research.md
+  #    - Full code: creating-addons/the-basics/full-code.md
+  #    - Practice tasks: creating-addons/the-basics/practice-tasks.md
+  #  - Custom items:
+  #    - Adding a custom item: creating-addons/custom-items/adding-a-custom-item.md
+  #    - Making items configurable: creating-addons/custom-items/making-items-configurable.md
+  #    - Advanced lore: creating-addons/custom-items/advanced-lore.md
+  #    - Persistent data: creating-addons/custom-items/persistent-data.md
+  #    - A complete example: creating-addons/custom-items/a-complete-example.md
+  #    - Full code: creating-addons/custom-items/full-code.md
+  #    - Practice tasks: creating-addons/custom-items/practice-tasks.md
+  #- Reference:
+  #  - Data-oriented interfaces: reference/data-oriented-interfaces.md
+  #  - Fluids: reference/fluids.md
+  #  - Cargo: reference/cargo.md
+  #  - Internationalization: reference/i18n.md
+  #- Javadocs: javadocs.md
+  #- Contributing:
+  #  - Getting started: contributing/getting-started.md
+  #  - The Pylon Master Project: contributing/master-project.md
+  #  - Contributing to docs: contributing/contributing-to-docs.md
 
 markdown_extensions:
   - def_list

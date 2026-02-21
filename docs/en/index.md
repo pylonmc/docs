@@ -10,12 +10,12 @@ Keep reading to find out more.
 
 ## :calendar: Where are we at?
 | Expected time of completion | Event |
-| :-------------------------- | :---- |
-| <s>**December 2025**</s> | <s>Most/all diesel machines fully implemented</s> (DONE) |
-| <s>**January 2025**</s> | <s>Cargo system fully implemented</s> (DONE) |
-| <s>**February 2025**</s> | <s>Open alpha testing (likely hosted on MetaMechanists - my own server) begins.</s> (Playtesting started) |
-| **April 2025** | Electricity fully implemented |
-| **Mid 2026** | Pylon officially released |
+|:----------------------------| :---- |
+| <s>**December 2025**</s>    | <s>Most/all diesel machines fully implemented</s> (DONE) |
+| <s>**January 2026**</s>     | <s>Cargo system fully implemented</s> (DONE) |
+| <s>**February 2026**</s>    | <s>Open alpha testing (likely hosted on MetaMechanists - my own server) begins.</s> (Playtesting started) |
+| **April 2026**              | Electricity fully implemented |
+| **Mid 2026**                | Pylon officially released |
 
 ## :wrench: Pylon's features
 
@@ -108,28 +108,28 @@ Keep reading to find out more.
 
 See the following code to get a feel for how Rebar works:
 
-| Example | Link |
-| ------- | ---- |
-| Portable dustbin | [https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/content/tools/PortableDustbin.java](https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/content/tools/PortableDustbin.java) |
+| Example | Link                                                                                                                                                                                                                                            |
+| ------- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Portable dustbin | [https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/content/tools/PortableDustbin.java](https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/content/tools/PortableDustbin.java)  |
 | Fireproof rune | [https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/base/content/tools/FireproofRune.java](https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/content/tools/FireproofRune.java) |
-| Hammer recipe type | [https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/recipes/HammerRecipe.java](https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/recipes/HammerRecipe.java) |
-| Hammer recipe files | [https://github.com/pylonmc/pylon/blob/master/src/main/resources/recipes/pylonbase/hammer.yml](https://github.com/pylonmc/pylon/blob/master/src/main/resources/recipes/pylonbase/hammer.yml) |
-| Pylon English language file | [https://github.com/pylonmc/pylon/blob/master/src/main/resources/lang/en.yml](https://github.com/pylonmc/pylon/blob/master/src/main/resources/lang/en.yml) |
-| Press block | [https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/content/machines/simple/Press.java](https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/content/machines/simple/Press.java) |
-| Hydraulic excavator settings | [https://github.com/pylonmc/pylon/blob/master/src/main/resources/settings/hydraulic_excavator.yml](https://github.com/pylonmc/pylon/blob/master/src/main/resources/settings/hydraulic_excavator.yml) |
+| Hammer recipe type | [https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/recipes/HammerRecipe.java](https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/recipes/HammerRecipe.java)                    |
+| Hammer recipe files | [https://github.com/pylonmc/pylon/blob/master/src/main/resources/recipes/pylon/hammer.yml](https://github.com/pylonmc/pylon/blob/master/src/main/resources/recipes/pylonbase/hammer.yml)                                                        |
+| Pylon English language file | [https://github.com/pylonmc/pylon/blob/master/src/main/resources/lang/en.yml](https://github.com/pylonmc/pylon/blob/master/src/main/resources/lang/en.yml)                                                                                      |
+| Press block | [https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/content/machines/simple/Press.java](https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/content/machines/simple/Press.java)  |
+| Hydraulic excavator settings | [https://github.com/pylonmc/pylon/blob/master/src/main/resources/settings/hydraulic_breaker.yml](https://github.com/pylonmc/pylon/blob/master/src/main/resources/settings/hydraulic_excavator.yml)                                              |
 
 ---
 
 ## :question: Q&A
 
-| Question | Answer |
-| -------- | ------ |
-| **How do I install Pylon?** | Read the installation guide at [https://pylonmc.github.io/installation/installing-pylon/](https://pylonmc.github.io/installation/installing-pylon/). Beware that **Pylon and Rebar are still experimental and you should not run them outside of an expendable test server.** |
-| **Will Rebar support Slimefun addons?** | No. Migrating from Slimefun to Rebar is non-trivial, and we advise addon developers to rewrite their addons entirely to better suit Pylon's progression and style rather than attempting to migrate them 1-to-1. |
+| Question | Answer                                                                                                                                                                                                                                                                                                                                                                 |
+| -------- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **How do I install Pylon?** | Read the installation guide at [https://pylonmc.github.io/home/installing-pylon/](https://pylonmc.github.io/installation/installing-pylon/). Beware that **Pylon and Rebar are still experimental and you should not run them outside of an expendable test server.**                                                                                                  |
+| **Will Rebar support Slimefun addons?** | No. Migrating from Slimefun to Rebar is non-trivial, and we advise addon developers to rewrite their addons entirely to better suit Pylon's progression and style rather than attempting to migrate them 1-to-1.                                                                                                                                                       |
 | **What versions will Rebar/Pylon support?** | We plan to keep each Pylon and Rebar version compatible with the latest version of Minecraft at the time. To make it easier and faster for us to update, **each version of Pylon/Rebar will only support one version of Minecraft.** This means you will need to use older versions of Pylon/Rebar for older versions of Minecraft. Critical fixes will be backported. |
-| **What server software can Pylon/Rebar run on?** | Paper or paper forks only. Folia support may come later down the line. |
-| **Will Pylon/Rebar support bedrock (via Geyser)?** | Eventually, yes, but it is not a high priority and will be one of the last things added. Geyser is very hard for a project like this to support and there will be some jank. |
-| **When will Pylon be ready?** | See the 'Provisional Timeline' section above |
-| **How can I submit a translation?** | We do not currently accept translations due to how quickly the plugin is changing (any translation would go out of date quickly). There will be an announcement when we are ready for translations. |
+| **What server software can Pylon/Rebar run on?** | Paper or paper forks only. Folia support may come later down the line.                                                                                                                                                                                                                                                                                                 |
+| **Will Pylon/Rebar support bedrock (via Geyser)?** | Eventually, yes, but it is not a high priority and will be one of the last things added. Geyser is very hard for a project like this to support and there will be some jank.                                                                                                                                                                                           |
+| **When will Pylon be ready?** | See the 'Provisional Timeline' section above                                                                                                                                                                                                                                                                                                                           |
+| **How can I submit a translation?** | We do not currently accept translations due to how quickly the plugin is changing (any translation would go out of date quickly). There will be an announcement when we are ready for translations.                                                                                                                                                                    |
 
 **If you have a different question, drop a message on [Discord](https://discord.gg/4tMAnBAacW) and we'll be happy to answer.**

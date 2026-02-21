@@ -4,8 +4,8 @@
     PYLON IS CURRENTLY EXPERIMENTAL. ONLY RUN IT ON A TEST SERVER THAT YOU ARE WILLING TO DELETE. THE NEXT PYLON VERSION WILL PROBABLY NOT BE COMPATIBLE WITH THE PREVIOUS ONE. IF YOU INSTALL PYLON SOMEWHERE YOU SHOULDN'T AND END UP LOSING DATA, WE WILL POINT AND LAUGH AT YOU.
 
 1. Make sure you are running Paper or a Paper fork. Pylon is not compatible with Spigot.
-2. Download the latest version of Rebar from [here](https://github.com/pylonmc/rebar/releases)
-3. Download the latest version of Pylon from [here](https://github.com/pylonmc/pylon)
+2. Download the latest version of Rebar from [here](https://github.com/pylonmc/rebar/releases/latest)
+3. Download the latest version of Pylon from [here](https://github.com/pylonmc/pylon/releases/latest)
 4. Drop the .jar files in your plugins folder and restart your server. [Do not use /reload](https://madelinemiller.dev/blog/problem-with-reload/). The first start will take longer than usual, but after that, Rebar/Pylon will load much more quickly.
 5. Check out Rebar and Pylon's plugin folders to see all the config options available.
 5. [Install some addons.](list-of-addons.md)

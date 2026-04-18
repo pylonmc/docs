@@ -11,11 +11,10 @@ rebar/
   dokka-plugin/
   nms/
   rebar/
-  src/
   test/
 ```
 
-`pylon` is the Base addon for Rebar. `rebar` has four subprojects: `dokka-plugin`, `nms`, `rebar`, and `test`. `dokka-plugin` contains a custom Dokka plugin we use to help with formatting Javadocs. `nms` contains all the Rebar code that touches server internals. It is in a separate subproject to effectively isolate potentially unstable code from the rest of the project. `rebar` contains the main Rebar code, and `test` contains the integration tests for Rebar.
+`pylon` is the base addon for Rebar. `rebar` has four subprojects: `dokka-plugin`, `nms`, `rebar`, and `test`. `dokka-plugin` contains a custom Dokka plugin we use to help with formatting Javadocs. `nms` contains all the Rebar code that touches server internals. It is in a separate subproject to effectively isolate potentially unstable code from the rest of the project. `rebar` contains the main Rebar code, and `test` contains the integration tests for Rebar.
 
 ## Tasks
 The Pylon master project contains a few tasks that are useful for development:

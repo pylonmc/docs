@@ -38,6 +38,7 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 ### Documentation
 
 - [x] Blocks
+- [x] Multiblocks
 - [ ] Language system
 - [ ] Items
 - [ ] Entities

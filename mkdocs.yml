@@ -51,6 +51,11 @@ nav:
         - Persistent data: documentation/reference/blocks/persistent-data.md
         - WAILA: documentation/reference/blocks/waila.md
         - Settings: documentation/reference/blocks/settings.md
+      - Multiblocks:
+        - Simple multiblocks: documentation/reference/multiblocks/simple-multiblocks.md
+        - Multiblock state: documentation/reference/multiblocks/multiblock-state.md
+        - Interacting with components: documentation/reference/multiblocks/interacting-with-components.md
+        - Custom multiblocks: documentation/reference/multiblocks/custom-multiblocks.md
       - Language system:
         - Tags: documentation/reference/language-system/tags.md
     - Internals:

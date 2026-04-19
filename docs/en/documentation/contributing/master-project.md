@@ -1,6 +1,6 @@
-# The Pylon & Rebar Project
+# The Parallel Dev Repo Project
 
-PylonMC has two repositries: one contains `rebar` and one contains `pylon`. This allows you to run base using your very own home-baked version of core, which allows you to test new features much more easily. This is what the 'How to get started' section used. We recommend you make changes to both Base and Core using the master repository, and the rest of this guide will assume you're using it.
+PylonMC has a repositry called: `parallel-dev-repo`. This allows you to run base using your very own home-baked version of core, which allows you to test new features much more easily. This is what the 'How to get started' section used. We recommend you make changes to both Pylon and Rebar using the repository, and the rest of this guide will assume you're using it.
 
 ## Project structure
 The project is structured as such:

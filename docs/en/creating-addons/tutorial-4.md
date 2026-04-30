@@ -53,7 +53,7 @@ public final class ExampleAddonItems {
 
     // ...
 
-    public static final ItemStack countingBaguette = ItemStackBuilder.pylonItem(Material.BREAD, countingBaguetteKey)
+    public static final ItemStack countingBaguette = ItemStackBuilder.rebar(Material.BREAD, countingBaguetteKey)
             .build();
 
     // ...
@@ -62,8 +62,8 @@ public final class ExampleAddonItems {
 
         // ...
 
-        PylonItem.register(CountingBaguette.class, countingBaguette);
-        BasePages.FOOD.addItem(countingBaguette);
+        RebarItem.register(CountingBaguette.class, countingBaguette);
+        PylonPages.FOOD.addItem(countingBaguette);
     }
 }
 ```
@@ -71,7 +71,7 @@ public final class ExampleAddonItems {
 <span></span>
 
 ```java title="CountingBaguette.java"
-public class CountingBaguette extends PylonItem {
+public class CountingBaguette extends RebarItem {
     public CountingBaguette(@NotNull ItemStack stack) {
         super(stack);
     }
@@ -90,13 +90,13 @@ item:
 
 First, we need to detect when the player right clicks:
 ```java title="CountingBaguette.java" hl_lines="1 6-10"
-public class CountingBaguette extends PylonItem implements PylonInteractor {
+public class CountingBaguette extends RebarItem implements RebarInteractor {
     public CountingBaguette(@NotNull ItemStack stack) {
         super(stack);
     }
 
     @Override
-    public void onUsedToRightClick(@NotNull PlayerInteractEvent event) {
+    public void onUsedToClick(@NotNull PlayerInteractEvent event, @NotNull EventPriority priority) {
         // TODO send stored value to player
         // TODO increment stored value
     }
@@ -111,7 +111,7 @@ To store a piece of data in a persistent data container, we need two other thing
     For convenience, Pylon supplies a range of types in the [PylonSerializers] file. This includes all the default types provided by Paper, but also some extra types (like UUID, Vector, BlockPosition, ItemStack, and more).
 
 ```java title="CountingBaguette.java" hl_lines="2 10-12"
-public class CountingBaguette extends PylonItem implements PylonInteractor {
+public class CountingBaguette extends RebarItem implements RebarInteractor {
     public static final NamespacedKey COUNT_KEY = new NamespacedKey(MyAddon.getInstance(), "count");
 
     public CountingBaguette(@NotNull ItemStack stack) {
@@ -119,7 +119,7 @@ public class CountingBaguette extends PylonItem implements PylonInteractor {
     }
 
     @Override
-    public void onUsedToRightClick(@NotNull PlayerInteractEvent event) {
+    public void onUsedToClick(@NotNull PlayerInteractEvent event, @NotNull EventPriority priority) {
         int count = getStack().getPersistentDataContainer().get(COUNT_KEY, PylonSerializers.INTEGER);
         event.getPlayer().sendMessage(String.valueOf(count));
         getStack().editPersistentDataContainer(pdc -> pdc.set(COUNT_KEY, PylonSerializers.INTEGER, count + 1));
@@ -133,11 +133,11 @@ You may have noticed that we have not set a starting value for the count yet. In
 
 ```java title="CountingBaguette.java" hl_lines="3"
 NamespacedKey countingBaguetteKey = new NamespacedKey(this, "counting_baguette");
-ItemStack countingBaguette = ItemStackBuilder.pylonItem(Material.BREAD, countingBaguetteKey)
+ItemStack countingBaguette = ItemStackBuilder.rebar(Material.BREAD, countingBaguetteKey)
         .editPdc(pdc -> pdc.set(CountingBaguette.COUNT_KEY, PylonSerializers.INTEGER, 0))
         .build();
-PylonItem.register(CountingBaguette.class, countingBaguette);
-BasePages.FOOD.addItem(countingBaguette);
+RebarItem.register(CountingBaguette.class, countingBaguette);
+PylonPages.FOOD.addItem(countingBaguette);
 ```
 
 And that's it! The data we stored will persist as long as the item exists.

@@ -6,11 +6,11 @@ Pylon is written in Java.
 
 ## How to get started
 
-1. Clone the `pylon` repository: `git clone https://github.com/pylonmc/pylon` (or use a GUI like Github Desktop)
+1. Clone the `parallel-dev-repo` repository: `git clone https://github.com/pylonmc/parallel-dev-repo` (or use a GUI like Github Desktop)
 2. If you're using IntelliJ, it'll set everything up automatically. If not, run `./gradlew`. This will clone the `rebar` and `pylon` repositories.
-3. If you want to submit your changes to the Pylon project, **delete the `rebar` or `pylon` directory (depending on which one you want to contribute to), fork the rebar or pylon repository, and clone your fork into the same directory.** Otherwise, you won't be able to open a pull request with your changes (unless you're a Pylon developer and have access to the Pylon repositories).
+3. If you want to submit your changes to the master project, **delete the `rebar` or `pylon` directory (depending on which one you want to contribute to), fork the rebar or pylon repository, and clone your fork into the same directory.** Otherwise, you won't be able to open a pull request with your changes (unless you're a Rebar/Pylon developer and have access to the Rebar/Pylon repositories).
 
-See the [Pylon Master Project](master-project.md) page for more information about the master repository.
+See the [The Parallel Dev Repo Project](master-project.md) page for more information about the master repository.
 
 ## Submitting your contributions
 

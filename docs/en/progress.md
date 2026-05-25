@@ -46,8 +46,9 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 - [ ] Logistics system
 - [ ] Recipes
 - [ ] Guide pages/buttons
-- [ ] Textures
+- [ ] Resource pack support
 - [ ] Configs
+- [ ] MultiHandler system
 
 ## Internals
 - [x] Cargo

@@ -49,6 +49,7 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 - [ ] Resource pack support
 - [ ] Configs
 - [ ] MultiHandler system
+- [ ] Culling system
 
 ## Internals
 - [x] Cargo

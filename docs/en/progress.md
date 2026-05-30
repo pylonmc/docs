@@ -2,6 +2,9 @@ This page tracks the current state of the documentation.
 
 See the [docs contribution guide](documentation/contributing/contributing-to-docs.md)
 
+## Misc
+- [ ] Placeholders
+
 ## Creating addons
 
 ### Tutorials
@@ -48,6 +51,8 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 - [ ] Guide pages/buttons
 - [ ] Textures
 - [ ] Configs
+- [ ] RebarItemTypeWrapper
+- [ ] Handlers (universal handler, multi handler, etc)
 
 ## Internals
 - [x] Cargo
@@ -58,6 +63,7 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 - [ ] BlockStorage
 - [ ] EntityStorage
 - [ ] Culling
+- [ ] Packet based entities
 - [ ] Textures
 - [ ] Test suite
 

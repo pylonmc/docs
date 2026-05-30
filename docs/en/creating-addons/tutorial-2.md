@@ -21,7 +21,7 @@ public final class ExampleAddonItems {
 
     // ...
 
-    public static final ItemStack baguetteFlamethrower = ItemStackBuilder.rebarItem(Material.BREAD, baguetteFlamethrowerKey)
+    public static final ItemStack baguetteFlamethrower = ItemStackBuilder.rebar(Material.BREAD, baguetteFlamethrowerKey)
             .build();
 
     // ...
@@ -31,7 +31,7 @@ public final class ExampleAddonItems {
         // ...
 
         RebarItem.register(RebarItem.class, baguette);
-        BasePages.FOOD.addItem(baguetteKey);
+        PylonPages.FOOD.addItem(baguetteKey);
     }
 }
 ```
@@ -76,7 +76,7 @@ public class BaguetteFlamethrower extends RebarItem implements RebarItemEntityIn
     }
 
     @Override
-    public void onUsedToRightClickEntity(@NotNull PlayerInteractEntityEvent event) {
+    public void onUsedToRightClickEntity(@NotNull PlayerInteractEntityEvent event, @NotNull EventPriority priority) {
         event.getRightClicked().setFireTicks(40);
     }
 }
@@ -133,7 +133,7 @@ public class BaguetteFlamethrower extends RebarItem implements RebarItemEntityIn
     }
 
     @Override
-    public void onUsedToRightClickEntity(@NotNull PlayerInteractEntityEvent event) {
+    public void onUsedToRightClickEntity(@NotNull PlayerInteractEntityEvent event, @NotNull EventPriority priority) {
         event.getRightClicked().setFireTicks(40);
     }
 }
@@ -160,7 +160,7 @@ public class BaguetteFlamethrower extends RebarItem implements RebarItemEntityIn
     }
 
     @Override
-    public void onUsedToRightClickEntity(@NotNull PlayerInteractEntityEvent event) {
+    public void onUsedToRightClickEntity(@NotNull PlayerInteractEntityEvent event, @NotNull EventPriority priority) {
         event.getRightClicked().setFireTicks(burnTimeTicks);
     }
 }
@@ -190,7 +190,7 @@ public class BaguetteFlamethrower extends RebarItem implements RebarItemEntityIn
     }
 
     @Override
-    public void onUsedToRightClickEntity(@NotNull PlayerInteractEntityEvent event) {
+    public void onUsedToRightClickEntity(@NotNull PlayerInteractEntityEvent event, @NotNull EventPriority priority) {
         event.getRightClicked().setFireTicks(burnTimeTicks);
     }
 }
@@ -203,7 +203,7 @@ public final class ExampleAddonItems {
 
     // ...
 
-    public static final ItemStack baguetteFlamethrower = ItemStackBuilder.rebarItem(Material.BREAD, baguetteFlamethrowerKey)
+    public static final ItemStack baguetteFlamethrower = ItemStackBuilder.rebar(Material.BREAD, baguetteFlamethrowerKey)
             .build();
 
     // ...
@@ -213,7 +213,7 @@ public final class ExampleAddonItems {
         // ...
 
         RebarItem.register(RebarItem.class, baguette);
-        BasePages.FOOD.addItem(baguetteKey);
+        PylonPages.FOOD.addItem(baguetteKey);
     }
 }
 ```

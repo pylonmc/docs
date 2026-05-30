@@ -115,7 +115,7 @@ public class BaguetteFlamethrower extends RebarItem implements RebarItemEntityIn
     }
 
     @Override
-    public void onUsedToRightClickEntity(@NotNull PlayerInteractEntityEvent event) {
+    public void onUsedToRightClickEntity(@NotNull PlayerInteractEntityEvent event, @NotNull EventPriority priority) {
         event.getRightClicked().setFireTicks(burnTimeTicks);
     }
 
@@ -155,7 +155,7 @@ public class BaguetteFlamethrower extends RebarItem implements RebarItemEntityIn
     }
 
     @Override
-    public void onUsedToRightClickEntity(@NotNull PlayerInteractEntityEvent event) {
+    public void onUsedToRightClickEntity(@NotNull PlayerInteractEntityEvent event, @NotNull EventPriority priority) {
         event.getRightClicked().setFireTicks(burnTimeTicks);
     }
 

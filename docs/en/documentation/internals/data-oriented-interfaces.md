@@ -1,5 +1,4 @@
 !!! abstract "Author: Idra"
-!!! abstract "Knowledgeable on this topic: Idra, Seggan"
 
 ## What the hell is that? I'm scared
 

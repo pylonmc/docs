@@ -28,10 +28,10 @@ The second thing we need is an actual item. We'll use [ItemStackBuilder] for thi
 
 [ItemStackBuilder] contains several different methods to help you create [ItemStack]s. For example, you can use `.set(<component>, <value>)` to set some of the item's values, like enchantments, whether the item is unbreakable, and so on.
 
-**Whenever you're creating a Rebar item, make sure you use `ItemStackBuilder.rebarItem(<material>, <key>)`.** There are others ways to create [ItemStack]s, but **do not** use these to create Rebar items. 
+**Whenever you're creating a Rebar item, make sure you use `ItemStackBuilder.rebar(<material>, <key>)`.** There are others ways to create [ItemStack]s, but **do not** use these to create Rebar items. 
 
-??? question "Why use `ItemStackBuilder.rebarItem`, and not any of the other ways to create an [ItemStack]?"
-    Under the hood, Rebar stores item keys in [PersistentDataContainer]s, or PDCs. When you call `ItemStackBuilder.rebarItem` and supply a key, that key is written to the item's PDC automatically. If you supply your own item stack, its PDC won't contain the item's key, and Rebar won't be able to differentiate that item with a regular Minecraft item.
+??? question "Why use `ItemStackBuilder.rebar`, and not any of the other ways to create an [ItemStack]?"
+    Under the hood, Rebar stores item keys in [PersistentDataContainer]s, or PDCs. When you call `ItemStackBuilder.rebar` and supply a key, that key is written to the item's PDC automatically. If you supply your own item stack, its PDC won't contain the item's key, and Rebar won't be able to differentiate that item with a regular Minecraft item.
 
     [ItemStackBuilder] also sets the name and lore of the item to the default translation keys (which will be explained later in this tutorial).
 
@@ -42,7 +42,7 @@ public final class ExampleAddonItems {
 
     // ...
 
-    public static final ItemStack baguette = ItemStackBuilder.rebarItem(Material.BREAD, baguetteKey)
+    public static final ItemStack baguette = ItemStackBuilder.rebar(Material.BREAD, baguetteKey)
             .set(DataComponentTypes.FOOD, FoodProperties.food().nutrition(6))
             .build();
 
@@ -61,7 +61,7 @@ public final class ExampleAddonItems {
 
     // ...
 
-    public static final ItemStack baguette = ItemStackBuilder.rebarItem(Material.BREAD, baguetteKey)
+    public static final ItemStack baguette = ItemStackBuilder.rebar(Material.BREAD, baguetteKey)
             .set(DataComponentTypes.FOOD, FoodProperties.food().nutrition(6))
             .build();
 
@@ -84,7 +84,7 @@ public final class ExampleAddonItems {
 
     // ...
 
-    public static final ItemStack baguette = ItemStackBuilder.rebarItem(Material.BREAD, baguetteKey)
+    public static final ItemStack baguette = ItemStackBuilder.rebar(Material.BREAD, baguetteKey)
             .set(DataComponentTypes.FOOD, FoodProperties.food().nutrition(6))
             .build();
 
@@ -95,7 +95,7 @@ public final class ExampleAddonItems {
         // ...
 
         RebarItem.register(RebarItem.class, baguette);
-        BasePages.FOOD.addItem(baguetteKey);
+        PylonPages.FOOD.addItem(baguetteKey);
     }
 }
 ```
@@ -296,7 +296,7 @@ public final class ExampleAddonItems {
 
     // ...
 
-    public static final ItemStack baguette = ItemStackBuilder.rebarItem(Material.BREAD, baguetteKey)
+    public static final ItemStack baguette = ItemStackBuilder.rebar(Material.BREAD, baguetteKey)
             .set(DataComponentTypes.FOOD, FoodProperties.food().nutrition(6))
             .build();
 
@@ -307,7 +307,7 @@ public final class ExampleAddonItems {
         // ...
 
         RebarItem.register(RebarItem.class, baguette);
-        BasePages.FOOD.addItem(baguetteKey);
+        PylonPages.FOOD.addItem(baguetteKey);
     }
 }
 ```

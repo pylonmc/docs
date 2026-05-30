@@ -49,10 +49,11 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 - [ ] Logistics system
 - [ ] Recipes
 - [ ] Guide pages/buttons
-- [ ] Textures
+- [ ] Resource pack support
 - [ ] Configs
 - [ ] RebarItemTypeWrapper
-- [ ] Handlers (universal handler, multi handler, etc)
+- [ ] MultiHandler system
+- [ ] Culling system
 
 ## Internals
 - [x] Cargo

@@ -63,6 +63,7 @@ nav:
       - Fluids: documentation/internals/fluids.md
       - Cargo: documentation/internals/cargo.md
       - Internationalization: documentation/internals/i18n.md
+      - Recipe autocompletion hellscape: documentation/internals/recipe-autocompletion.md
     - Contributing:
       - Getting started: documentation/contributing/getting-started.md
       - The Pylon Master Project: documentation/contributing/master-project.md
@@ -89,6 +90,7 @@ markdown_extensions:
 
 plugins:
   - open-in-new-tab
+  - search
   - i18n:
       docs_structure: folder
       fallback_to_default: true

@@ -1,5 +1,4 @@
 !!! abstract "Author: Idra"
-!!! abstract "Knowledgeable on this topic: Idra"
 
 ## Fluid points
 

@@ -6,7 +6,7 @@ Adding a custom block requires 3 things:
 
 - A block class
 - A `NamespacedKey` that identifies your block
-- A corresponding `PylonItem` (Not strictly needed, but recommended so players can place your block)
+- A corresponding `RebarItem` (Not strictly needed, but recommended so players can place your block)
 
 
 ## Block classes

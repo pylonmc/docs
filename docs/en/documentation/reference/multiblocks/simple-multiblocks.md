@@ -1,5 +1,3 @@
-# Simple multiblocks
-
 In Rebar, there are two classes that handle multiblock: [RebarMultiblock](https://pylonmc.github.io/rebar/docs/javadoc/io/github/pylonmc/rebar/block/base/RebarMultiblock.html) and [RebarSimpleMultiblock](https://pylonmc.github.io/rebar/docs/javadoc/io/github/pylonmc/rebar/block/base/RebarSimpleMultiblock.html). 
 
 This page only covers `RebarSimpleMultiblock` as it is the simpler of the two and provides nice abstractions for working with multiblocks, while `RebarMultiblock` is far more flexible but also barebones.

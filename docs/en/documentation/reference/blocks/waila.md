@@ -1,5 +1,3 @@
-# WAILA
-
 WAILA (What Am I Looking At) shows information about the Rebar block you are looking at:
 
 ![WAILA example](img/waila-example.png)

@@ -1,5 +1,3 @@
-# Custom blocks
-
 !!! warning "This section of the docs assumes you understand the basics of Rebar items."
 
 Adding a custom block requires 3 things:

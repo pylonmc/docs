@@ -1,5 +1,3 @@
-# Settings
-
 Just like items, you can assign settings to a block.
 
 Suppose we have a block which counts up by one every time it is right clicked:

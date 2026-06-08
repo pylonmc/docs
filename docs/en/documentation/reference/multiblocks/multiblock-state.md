@@ -1,5 +1,3 @@
-# Multiblock state
-
 You will often need to get or listen for information about a multiblock's state. There are two main pieces of information tracked by Rebar that are important to know about:
 
 * Is the multiblock formed?

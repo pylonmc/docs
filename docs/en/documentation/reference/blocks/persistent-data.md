@@ -1,5 +1,3 @@
-# Persistent data
-
 Since each physical block has a corresponding instance, you can store block data in your block's class.
 
 For example, consider a block which increments a counter by one every time it is right clicked:

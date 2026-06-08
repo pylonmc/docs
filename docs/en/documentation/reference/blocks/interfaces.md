@@ -1,5 +1,3 @@
-# Block interfaces
-
 Rebar has a number of builtin interfaces which add custom behaviour to blocks. For example, there are interfaces which allow you to:
 
 - add fluid buffers ([RebarFluidBufferBlock](https://pylonmc.github.io/rebar/docs/javadoc/io/github/pylonmc/rebar/block/base/RebarFluidBufferBlock.html))

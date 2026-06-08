@@ -12,22 +12,26 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 - [x] Tutorial 1 - Your first item
 - [x] Tutorial 2 - Customising items
 - [x] Tutorial 3 - Lore
-- [ ] Tutorial 4 - Saving data to items
+- [x] Tutorial 4 - Saving data to items
 - [ ] Tutorial 5 - Your first block
 - [ ] Tutorial 6 - Customising blocks
 - [ ] Tutorial 7 - Block tickers
-- [ ] Tutorial 9 - Saving data to blocks
-- [ ] Tutorial 8 - Fluid system
-- [ ] Tutorial 10 - Creating GUIs
-- [ ] Tutorial 11 - The Rebar guide
-- [ ] Tutorial 12 - Virtual inventories
-- [ ] Tutorial 13 - Logistic blocks
-- [ ] Tutorial 14 - Processors
-- [ ] Tutorial 15 - Multiblocks
-- [ ] Tutorial 16 - Using display entities
-- [ ] Tutorial 17 - Adding a new recipe type
-- [ ] Tutorial 18 - Your first entity
-- [ ] Tutorial 19 - Customising researches
+- [ ] Tutorial 8 - Saving data to blocks
+- [ ] Tutorial 9 - Processor blocks
+- [ ] Tutorial 10 - Recipe processor blocks
+- [ ] Tutorial 11 - Adding a new fluid
+- [ ] Tutorial 12 - Fluid blocks
+- [ ] Tutorial 13 - Fluid items
+- [ ] Tutorial 14 - Creating GUIs
+- [ ] Tutorial 15 - The Rebar guide
+- [ ] Tutorial 16 - Virtual inventories
+- [ ] Tutorial 17 - Logistic blocks
+- [ ] Tutorial 18 - Processors
+- [ ] Tutorial 19 - Multiblocks
+- [ ] Tutorial 20 - Using display entities
+- [ ] Tutorial 21 - Adding a new recipe type
+- [ ] Tutorial 22 - Your first entity
+- [ ] Tutorial 23 - Customising researches
 
 ### Discussions
 (leave to Idra pls)
@@ -67,4 +71,13 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 - [ ] Packet based entities
 - [ ] Textures
 - [ ] Test suite
+
+## Contributing
+- [x] Getting started
+- [x] Parallel dev repo
+- [x] Testing your changes
+- [x] Custom Dokka (migrate from getting started)
+- [x] Contributing to docs
+- [ ] Contributing guidelines (including AI usage)
+- [ ] Testing (migrate from getting started and add basic manual testing guidelines)
 

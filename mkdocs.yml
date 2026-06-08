@@ -66,7 +66,9 @@ nav:
       - Recipe autocompletion hellscape: documentation/internals/recipe-autocompletion.md
     - Contributing:
       - Getting started: documentation/contributing/getting-started.md
-      - The Pylon Master Project: documentation/contributing/master-project.md
+      - Parallel dev repo: documentation/contributing/parallel-dev-repo.md
+      - Testing your changes: documentation/contributing/testing-your-changes.md
+      - Custom Dokka: documentation/contributing/custom-dokka.md
       - Contributing to docs: documentation/contributing/contributing-to-docs.md
 
 markdown_extensions:

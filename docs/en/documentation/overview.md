@@ -1,5 +1,3 @@
-The Rebar docs are split into 4 parts:
-
 ### Javadocs / KDocs
 
 An automatically generated web view of the codebase which allows you to search names, view JavaDoc strings, and more. KDocs is the Kotlin version of Javadocs.
@@ -10,13 +8,13 @@ An automatically generated web view of the codebase which allows you to search n
 
 ### Reference
 
-Documentation which gives a more holistic overview of Rebar and certain Rebar systems, written for addon developers.
+Documentation which gives a complete overview of Rebar, written for addon developers.
 
 ---
 
 ### Internals
 
-Holistic documentation on how Rebar systems work intewrnally. You do not need to view this documentation unless you are working on Rebar itself.
+Holistic documentation on how Rebar systems work internally. You do not need to view this documentation unless you are working on Rebar itself.
 
 ---
 

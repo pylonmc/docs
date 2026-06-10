@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
   <diagram name="Page-1" id="zRISMGSPJb2iWKu7wSxN">
-    <mxGraphModel dx="3420" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="82" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,7 +77,7 @@
         <mxCell id="WDVlLpDIWkS40uQ7AlG5-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WDVlLpDIWkS40uQ7AlG5-52" target="WDVlLpDIWkS40uQ7AlG5-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WDVlLpDIWkS40uQ7AlG5-52" value="Is the recipe a dummy recipe?" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#F9FF57;fontStyle=0;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="WDVlLpDIWkS40uQ7AlG5-52" value="Is the recipe a dummy/representative recipe?" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#F9FF57;fontStyle=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="670" y="540" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WDVlLpDIWkS40uQ7AlG5-54" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3B55;" vertex="1" parent="1">

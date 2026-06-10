@@ -16,14 +16,14 @@
 
 ### RecipeChoice primer
 
-In Rebar, we need to add new recipes to vanilla things, like the crafting table, furnace, etc. Easy right? Bukkit has a nice API which allows us to register new recipes with the server. When we register recipes, we need to provide a RecipeChoice. This is a sealed interface. The only available implementations are ExactChoice, MaterialChoice, and ItemTypeChoice (which is basically just MaterialChoice). 
+In Rebar, we need to add new recipes to vanilla things, like the crafting table, furnace, etc. Easy right? Bukkit has a nice API which allows us to register new recipes with the server. When we register recipes, we need to provide a [RecipeChoice]. This is a sealed interface. The only available implementations are [ExactChoice], [MaterialChoice], and [ItemTypeChoice] (which is basically just MaterialChoice). 
 
 - ExactChoice matches an item exactly. If anything at all is different (name, tool durability, even pdc contents, etc), it will fail to match.
 - MaterialChoice and ItemTypeChoice match a material or a set of materials. They do not care about anything else like tool durability left, name, etc.
 
 ### Problem 1: Rebar items in vanilla recipes
 
-Rebar uses items' PersistentDataContainer to keep track of the Rebar item type. This means that, guess what, MaterialChoice and ItemTypeChoice will match Rebar items. For example, a tin ingot is backed by an iron ingot. So, if you place a tin ingot in a crafting grid, the iron nugget recipe will match (because it uses a material choice) and you will be able to happily convert your tin ingot into iron nuggets. This is less than ideal.
+Rebar uses items' [PersistentDataContainer] to keep track of the Rebar item type. This means that, guess what, MaterialChoice and ItemTypeChoice will match Rebar items. For example, a tin ingot is backed by an iron ingot. So, if you place a tin ingot in a crafting grid, the iron nugget recipe will match (because it uses a material choice) and you will be able to happily convert your tin ingot into iron nuggets. This is less than ideal.
 
 ### Problem 2: Bukkit recipe choices and fuzzy matching
 
@@ -85,7 +85,7 @@ Rebar has one API for handling both vanilla and custom recipes. It's important t
 
 ### Vanilla recipe representations
 
-We need some way to store the vanilla recipes. To do this, Rebar has its own representations of vanilla recipe types. These can be found in the 'recipe.vanilla' package.
+We need some way to store the vanilla recipes. To do this, Rebar has its own representations of vanilla recipe types. These can be found in the `recipe.vanilla` package.
 
 ### Recipe result hijacking
 
@@ -110,20 +110,24 @@ There is a problem with recipe result hijacking which has been conveniently left
 !!! note 
     Dummy recipes are not required for every recipe type. For example, crafting tables fire an event whenever their input is updated which we can take advantage of.
 
-To mitigate this, when a Rebar recipe does not have a vanilla equivalent (i.e. a recipe which uses all the same backing materials - think tin ingot -> tin nugget and iron ingot -> iron nugget), we register dummy recipes. These are recipes which use a MaterialChoice of the corresponding Rebar item's backing material for all of their inputs. Now, when the recipe for a hydraulic pipe bender is placed into a crafting table...
+To mitigate this, we register dummy recipes. These are recipes which use a MaterialChoice of the corresponding Rebar item's backing material for all of their inputs. Now, when the recipe for a hydraulic pipe bender is placed into a crafting table...
 
 - ...the dummy recipe will match...
 - ...the event will fire...
 - ...and we'll intercept the event...
-- ...and we'll do our own matching to ensure that the items in the crafting grid actually match the recipe
+- ...and we'll do our own matching to ensure that the items in the crafting grid actually match (one of) the corresponding 'real' recipes
 
 This can be thought of as registering a recipe with weaker constraints (i.e. it might match stuff that's not in the recipe) and then enforcing a stronger constraint (ensuring the recipe exactly matches) when we intercept the event.
 
-### Client recipe book gaslighting
+### Representative recipes and client gaslighting
 
-Remember how the recipe book is *mostly* clientsided? There is a PlayerRecipeBookClickEvent which is fired when the player attempts to complete a recipe using the recipe book.
+An additional problem is that the recipe book cannot really handle dummy recipes because they match way more than only the exact recipe. The dummy recipes cause lots of false positives, but with the recipe book, we prefer false negatives - this is less frustrating for the player. Therefore, we use packet magic to hide the recipes from clients. As far as the client is concerned, the dummy recipes do not exist.
 
-TODO
+But now there is a new problem: the recipe book does not actually contain any of the Rebar recipes. We do want the client to see *some* recipes. Therefore, we also register representative recipes. These recipes are effectively the opposite of dummy recipes; they have false negatives instead of false positives. This displays the recipes in the recipe book and *usually* is accurate, but in certain cases (i.e. fuzzy matching) is not.
+
+### Recipe book completion hijacking
+
+Remember how the recipe book is *mostly* clientsided? There is a PlayerRecipeBookClickEvent which is fired when the player attempts to complete a recipe using the recipe book. Since the client is provided with representative recipes instead of the actual recipes, there are scenarios where the recipe completion logic will think that a recipe cannot be completed when in actuality it can. To fix this, we listen to the PlayerRecipeBookClickEvent, check the recipe being completed, and force the recipe to be completed if it matches the real recipe.
 
 ---
 

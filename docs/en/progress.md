@@ -1,8 +1,14 @@
 This page tracks the current state of the documentation.
 
-See the [docs contribution guide](documentation/contributing/contributing-to-docs.md)
+See the [docs contribution guide](documentation/contributing/contributing-to-docs.md) if you wish to help expand the docs.
 
-## Misc
+## Main
+
+- [x] Pylon main page
+- [x] Installing Pylon
+- [ ] Addon list
+- [x] Commands and permissions
+- [x] Compatibility
 - [ ] Placeholders
 
 ## Creating addons

@@ -1,21 +1,10 @@
-Pylon is an upcoming Minecraft Java technology plugin that will hugely expand vanilla gameplay with new content: electricity, diesel machines, new fluids and fluid pipes, logistics, and much, much more!
+Pylon is an upcoming Minecraft Java technology plugin that will hugely expand vanilla gameplay with new content: electricity, diesel machines, new fluid pipes and fluids, logistics, useful tools and weapons, and much, much more!
 
 Pylon is built using Rebar a powerful framework that allows adding custom blocks, items, researches, etc. Rebar also implements complex systems such as fluid handling logic and cargo routing. **Pylon is actually a Rebar addon**.
 
 [:simple-discord: Join us on Discord :material-arrow-right:](https://discord.gg/4tMAnBAacW){ .md-button } [:simple-github: Find us on GitHub :material-arrow-right:](https://github.com/pylonmc){ .md-button } [:material-server: Install Pylon :material-arrow-right:](home/installing-pylon.md){ .md-button }
 
-Keep reading to find out more.
-
 ---
-
-## :calendar: Where are we at?
-| Expected time of completion | Event |
-|:----------------------------| :---- |
-| <s>**December 2025**</s>    | <s>Most/all diesel machines fully implemented</s> (DONE) |
-| <s>**January 2026**</s>     | <s>Cargo system fully implemented</s> (DONE) |
-| <s>**February 2026**</s>    | <s>Open alpha testing (likely hosted on MetaMechanists - my own server) begins.</s> (Playtesting started) |
-| **April 2026**              | Electricity fully implemented |
-| **Mid 2026**                | Pylon officially released |
 
 ## :wrench: Pylon's features
 
@@ -30,95 +19,57 @@ Keep reading to find out more.
 | :white_check_mark: | Per-player language support
 | :white_check_mark: | Comprehensive and user-friendly in-game guide
 | :white_check_mark: | Extensive server customisation options (including per-machine settings and customisable recipes)
-| :white_check_mark: | Performance tuning options (limit the number of blocks per chunk/player, configure tick rates, etc)
 | :white_check_mark: | First-class texture pack support + 'official' texture pack (including blocks)
 | :white_check_mark: | Diesel machines (mid-game automation)
 | :white_check_mark: | Cargo system (automatically move items from A to B)
-| :o: | Electric machines (end-game automation)
+| :white_check_mark: | First-class texture pack support + 'official' texture pack (including blocks)
+| :construction: | Electric machines (late-game automation)
+| :o: | Petrochemicals chain
+| :o: | Performance tuning options (limit the number of blocks per chunk/player, configure tick rates, etc)
 | :o: | AE2-style endgame logistics system
-| :o: | Builtin profiler for determining what's causing the most lag
 | :o: | Bedrock support (via Geyser)
+
+## :calendar: Where are we at?
+| Expected time of completion | Event |
+|:----------------------------| :---- |
+| <s>Sep/Oct 2025</s> | <s>Closed alpha testing begins</s> |
+| <s>Dec 2026</s> | <s>Diesel fully implemented</s> |
+| <s>Jan 2026</s> | <s>Cargo system fully implemented</s> |
+| <s>Feb 2026</s> | <s>Open alpha playtest begins</s> |
+| Jun 2026 | Electricity fully implemented |
+| Jul 2026 | Petrochemicals fully implemented |
+| Aug 2026 | Open beta playtest begins |
+| Dec 2026 | Release |
 
 ## :frame_photo: Gallery
 
-|    |    |
-| :- | :- |
-| ![A Pylon fluid setup](img/fluid-setup.png) | ![Hydraulic fluid setup](img/hydraulic-fluid-setup.png) 
-| ![Copper fluid tank](img/looking-at-copper-fluid-tank.png) | ![Medkit in guide](img/medkit.png) |
-| ![Placing copper pipes](img/placing-pipes.png) | ![Using the hydraulic grindstone turner](img/using-grindstone-turner.png) |
-| ![Searching items in the Pylon guide](img/searching-items.png) | ![Purification tower config](img/purification-tower-config.png) |
-| ![Using the magic altar](img/using-magic-altar.png) | ![Using the smeltery](img/using-smeltery.png) |
-| ![Pylon research in the guide](img/looking-at-research.png) | ![Hovering over research pack in Pylon guide](img/hovering-over-research-pack.png) |
-
-## :detective: Meet the team
-
-| Role | Member | Bio |
-| ---- | ------ | --- |
-| <span style="color: #ff0000;">Lead Developer</span> | :flag_us: Seggan | A veteran Slimefun addon developer (SlimefunWarfare, SFCalc, Galactifun), with a impressive contribution record for SF addons, Paper, and Slimefun. Seggan is responsible for many core Rebar and Pylon systems, including translation, WAILA, researches, the smeltery, the recipe system, and more. |
-| <span style="color: #ff0000;">Lead Developer</span> | :flag_ca: Ohm | New to plugin development, but has done a fantastic job getting up to speed and adding lots of base content, like talismans and the beheading sword, as well as a *lot* of various smaller technical changes & bug fixes. |
-| <span style="color: #ff0000;">Lead Developer</span> | :flag_gb: Idra | Owner of a Slimefun server for 5 years & Quaptics developer. I have developed many of the core systems including the Pylon guide, fluid system, hydraulics, cargo, diesel, automated tests, block storage, and more|
-| <span style="color: #e67e22;">Developer</span> | :flag_it: Vaan | Previously headed a geopolitics server and has been doing a lot of valuable work on the 'smaller stuff' - resolving issues, fixing bugs, adding polishing, making technical changes, and lots more. |
-| <span style="color: #e67e22;">Developer</span> | :flag_us: Justin | Head developer on my server for 3 years and works professionally in the Minecraft space. He has done the majority of the texture pack support side of Pylon, and other various smaller refinements.
-| <span style="color: #f8ac2e;">Artist</span> | :flag_cz: Pandicka | A talented texture pack artist who worked on Slimefun texture packs, and has created the majority of the Pylon resource pack. |
-| <span style="color: #bc915c;">Contributor</span> | :flag_cn: Balugaq | Former Slimefun addon developer (JustEnoughGuide, SlimefunTimeIt, MSUA, AdvancedBan, and more) who has contributed to Pylon/Rebar (primarily the recipe ingredient calculation system) and also has already written two addons. |
-| <span style="color: #bc915c;">Contributor</span> | :flag_us: Blueb | Has run a Slimefun server (Orchid) for several years and has added some neat content like the elevator. |
-| <span style="color: #bc915c;">Contributor</span> | :flag_cn: Ybw0014 | Former Slimefun addon developer who ran the Slimefun community. Helped with some of the Pylon/Rebar docs. |
+|    |    |    |
+| :- | :- | :- |
+| ![](img/image-1.png) | ![](img/image-2.png) | ![](img/image-3.png) |
+| ![](img/image-4.png) | ![](img/image-5.png) | ![](img/image-6.png) |
+| ![](img/image-7.png) | ![](img/image-8.png) | ![](img/image-9.png) |
 
 ---
 
-## :tools: For server admins
+## Rebar & addons
+Pylon is built using Rebar, a plugin we developed alongside Pylon to allow developers to easily create new blocks. With some programming knowledge, you can easily create and release your own addon for Pylon with your own blocks, items, researches, recipes, etc.
 
-### Performance
-
-- :gear: Even huge multiblocks will have **almost zero** performance impact compared to a normal Rebar block
-- :gear: Most of Rebar/Pylon will eventually run asynchronously
-- :gear: Performance is literally built into Rebar/Pylon's design - systems like fluid pipes and cargo were designed from the ground up in the most performant way possible
-- :gear: You will be able to limit the number of each type of block per player or per chunk
-- :gear: Pylon/Rebar will have many more performance options, such as making fluid pipes tick less often, or reducing tick rates of individual types of machines
-- :gear: We plan to add a purpose-built profiler so you can see exactly what blocks & items are using the most CPU or memory
-
-### Stability
-
-- :gear: Easily disable any problematic blocks or items
-- :gear: Rebar or Rebar addons will refuse to start if it detects any configuration issues
-- :gear: Blocks that throw errors will be safely unloaded
-- :gear: Removing addons is safe, with all the data kept intact and restored if the addon is re-added
-- :gear: Rebar data is stored **in the world data itself** - no need to keep extra backups
-
-### Customisation
-
-- :gear: The unlocks and costs of each research are configurable
-- :gear: All recipes are configurable
-- :gear: Most blocks and items have settings determining their tick rate, speed, diesel usage, etc
-
----
-
-## :keyboard: For developers
-
-### Addon development
-
-- :gear: You can add content by writing a Rebar addon
-- :gear: Rebar supports addons written in Kotlin
-- :gear: Blocks, items, recipes, guide pages, fluids, and entities are all easy and intuitive to add
-- :gear: Rebar will have extensive high-level documentation on all the features it has to offer
-
-!!! warning "Currently, addon development is not supported due to how rapidly Pylon is still changing."
-
-### Examples
+!!! warning "Addon development"
+    Currently, addon development is not supported due to how rapidly Pylon and Rebar are still changing.
 
 See the following code to get a feel for how Rebar works:
 
-| Example | Link                                                                                                                                                                                                                                        |
-| ------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Portable dustbin | [https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/content/tools/PortableDustbin.java](https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/content/tools/PortableDustbin.java) |
-| Fireproof rune | [https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/base/content/tools/FireproofRune.java](https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/content/tools/FireproofRune.java) |
-| Hammer recipe type | [https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/recipes/HammerRecipe.java](https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/recipes/HammerRecipe.java)                |
-| Hammer recipe files | [https://github.com/pylonmc/pylon/blob/master/src/main/resources/recipes/pylon/hammer.yml](https://github.com/pylonmc/pylon/blob/master/src/main/resources/recipes/pylon/hammer.yml)                                                        |
-| Pylon English language file | [https://github.com/pylonmc/pylon/blob/master/src/main/resources/lang/en.yml](https://github.com/pylonmc/pylon/blob/master/src/main/resources/lang/en.yml)                                                                                  |
-| Press block | [https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/content/machines/simple/Press.java](https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/content/machines/simple/Press.java) |
-| Hydraulic excavator settings | [https://github.com/pylonmc/pylon/blob/master/src/main/resources/settings/hydraulic_breaker.yml](https://github.com/pylonmc/pylon/blob/master/src/main/resources/settings/hydraulic_breaker.yml)                                            |
+:link: [Portable dustbin](https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/content/tools/PortableDustbin.java)
 
----
+:link: [Hydraulic pipe bender](https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/content/machines/hydraulics/HydraulicPipeBender.java)
+
+:link: [Hammer recipe type](https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/recipes/HammerRecipe.java)
+
+:link: [Hammer recipe files](https://github.com/pylonmc/pylon/blob/master/src/main/resources/recipes/pylon/hammer.yml)
+
+:link: [Base English language file](https://github.com/pylonmc/pylon/blob/master/src/main/resources/lang/en.yml)
+
+:link: [Press](https://github.com/pylonmc/pylon/blob/master/src/main/java/io/github/pylonmc/pylon/content/machines/simple/Press.java)
 
 ## :question: Q&A
 
@@ -133,3 +84,62 @@ See the following code to get a feel for how Rebar works:
 | **How can I submit a translation?** | We do not currently accept translations due to how quickly the plugin is changing (any translation would go out of date quickly). There will be an announcement when we are ready for translations.                                                                                                                                                                    |
 
 **If you have a different question, drop a message on [Discord](https://discord.gg/4tMAnBAacW) and we'll be happy to answer.**
+
+---
+
+## :zap: Why Pylon?
+
+### Addons
+
+:gear: Already **9+ addons being developed** with many more planned
+
+:gear: We anticipate a rich addon ecosystem
+
+:gear: Create your own addons with a bit of programming knowledge
+
+### Customisation
+
+:gear: The unlocks and costs of each research are configurable
+
+:gear: All recipes are configurable
+
+:gear: Most blocks and items have settings determining their tick rate, speed, diesel usage, etc
+
+### Performance
+
+:gear: Far superior performance to Slimefun as we designed for performance from beginning to end
+
+:gear: Even huge multiblocks have almost zero performance impact compared to a normal Pylon block
+
+:gear: Most of Pylon/Rebar will eventually run asynchronously
+
+:gear: Systems like fluid pipes and cargo were designed from the ground up in the most performant way possible
+
+:gear: Pylon/Rebar will have a wide range of performance settings, including tick rates, per-player block limits, and more
+
+
+### Stability
+
+:gear: Easily disable any problematic blocks or items
+
+:gear: Pylon will refuse to start if it detects any configuration issues
+
+:gear: Blocks that throw errors will be safely unloaded
+
+:gear: Removing addons is safe, with all the data kept intact and restored if the addon is re-added
+
+:gear: Pylon data is stored **in the world data itself** - desyncs are very rare and there's no need to keep extra backups (cough)
+
+---
+
+## :detective: The team
+
+| Member | Bio |
+| ------ | --- |
+| :flag_us: Seggan | A veteran Slimefun addon developer (SlimefunWarfare, SFCalc, Galactifun), with a impressive contribution record for SF addons, Paper, and Slimefun. Seggan is responsible for many core Rebar and Pylon systems, including translation, WAILA, researches, the smeltery, the recipe system, electricity, and more. |
+| :flag_gb: Idra | Owner of a Slimefun server for 6 years & Quaptics developer. I have developed many of the core systems including the Pylon guide, fluid system, hydraulics, cargo, diesel, automated tests, block storage, and more |
+| :flag_us: Justin | Works professionally in the Minecraft space. Justin has done the majority of the texture pack support side of Rebar (including custom block textures), as well as other various technical changes, bug fixes, polish, performance improvements, and new blocks/items. |
+| :flag_ca: Ohm | New to plugin development, but has done a fantastic job getting up to speed and adding base content, like talismans and the beheading sword, as well as lots of various smaller technical changes & bug fixes. |
+| :flag_it: Vaan | Previously headed a geopolitics server and has been doing a lot of valuable work on the 'smaller stuff' - resolving issues, fixing bugs, adding polishing, making technical changes, and lots more. |
+| :flag_cz: Pandicka | A talented texture pack artist who worked on Slimefun texture packs, and has created the majority of the Pylon resource pack. |
+

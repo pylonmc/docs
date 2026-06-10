@@ -1,6 +1,50 @@
 # List of addons
 
-| Name | Author | Description | Download |
-|------|--------|-------------|----------|
-| Pylon | Pylon team | Adds all the base Pylon content. Required for most addons to work | [GitHub](https://github.com/pylonmc/pylon/releases) |
+!!! question "Found a mistake? Want to add your addon to the list?"
+    Please let us know on [Discord](https://discord.gg/4tMAnBAacW).
+
+??? info "What is 'AI usage' and 'status'?"
+    <div class="grid cards" markdown>
+
+    !!! abstract "AI usage"
+        AI usage is counted as any usage of generative AI in the process of creating an addon where the output is not significantly changed by hand after being generated.
+
+        | Keyword | Meaning |
+        |---------|---------|
+        | <span class="addon-ai-minimal">Minimal</span> | No or very little AI was used to create this addon |
+        | <span class="addon-ai-medium">Medium</span> | AI was used to generate some of this addon (<25% of code/assets) |
+        | <span class="addon-ai-high">High</span> | AI was used to generate substantial portions of this addon (25%+ of code/assets) |
+        | <span class="addon-ai-undisclosed">Undisclosed</span> | Addon author did not disclose AI usage |
+
+    !!! abstract "Status"
+        | Keyword | Meaning |
+        |---------|---------|
+        | <span class="addon-status-stable">Stable</span> | <ul><li>Safe to use in production</li><li>No breaking changes expected</li> |
+        | <span class="addon-status-unstable">Unstable</span> | <ul><li>Still in developement</li><lI>Breaking changes expected</li><li>Only install on a test server</li> |
+        | <span class="addon-status-development">Development</span> | <ul><li>Still in development</li><li>Not available to download yet</li> |
+        | <span class="addon-status-abandoned">Abandoned</span> | <ul><li>No longer being maintained</li><li>May still work fine on latest version</li> |
+        | <span class="addon-status-broken">Broken</span> | <ul><li>Addon is known to not work on latest version</li></ul> |
+
+    </div>
+
+---
+
+## Verified addons
+
+These addons have been tested and verified to be robust, polished, balanced, and generally of a high quality by the Pylon team.
+
+| Name | Author | AI usage | Status | Description | Link |
+|------|--------|----------|--------|-------------|----------|
+| **Pylon** | PylonMC | <span class="addon-ai-minimal">Minimal</span> | <span class="addon-status-unstable">Unstable</span> | Adds all the base Pylon content. Required by most addons. | [GitHub](https://github.com/pylonmc/pylon) |
+
+## Other addons
+
+| Name | Author | AI usage | Status | Description | Link |
+|------|--------|----------|--------|-------------|----------|
+| **RebarRank** | Idra | <span class="addon-ai-minimal">Minimal</span> | <span class="addon-status-development">Development</span> | Adds a simple rankup system which ranks up players when they obtain certain Rebar items. | [GitHub](https://github.com/LordIdra/RebarRank) |
+
+
+## Unmaintained & broken addons
+
+These addons are no longer being maintained and/or do not work on the latest versions of Rebar/Pylon.
 

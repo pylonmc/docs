@@ -41,3 +41,39 @@ h6 {
 .md-typeset .grid.cards table td:last-child {
     width: 100% !important;
 }
+
+.addon-ai-minimal {
+    color: #9bdb9c;
+}
+
+.addon-ai-medium {
+    color: #dbd49b;
+}
+
+.addon-ai-high {
+    color: #dba29b;
+}
+
+.addon-ai-undisclosed {
+    color: #969696;
+}
+
+.addon-status-stable {
+    color: #00ff00;
+}
+
+.addon-status-unstable {
+    color: #ffff00;
+}
+
+.addon-status-development {
+    color: #fc8207;
+}
+
+.addon-status-abandoned {
+    color: #5b5b5b;
+}
+
+.addon-status-broken {
+    color: #ff0000;
+}

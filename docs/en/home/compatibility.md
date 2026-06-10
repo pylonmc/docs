@@ -6,7 +6,6 @@ There are all the plugins Rebar integrates with to provide extra features or sol
 |-----------------------------------|---------------------------------------|
 | PlaceholderAPI                    | See the list of Rebar placeholders [here](placeholders.md) |
 
-
 ### Known compatiblity issues
 
 These are all the plugins known to cause issues with Rebar.

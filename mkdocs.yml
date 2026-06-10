@@ -37,7 +37,6 @@ nav:
     - Commands & permissions: home/commands-and-permissions.md
     - Compatibility: home/compatibility.md
     - Placeholders: home/placeholders.md
-    - Documentation progress: progress.md
   - Creating addons:
     - Tutorial 0 - Getting started: creating-addons/tutorial-0.md
     - Tutorial 1 - Your first item: creating-addons/tutorial-1.md
@@ -73,6 +72,7 @@ nav:
       - Testing your changes: documentation/contributing/testing-your-changes.md
       - Custom Dokka: documentation/contributing/custom-dokka.md
       - Contributing to docs: documentation/contributing/contributing-to-docs.md
+  - Progress: progress.md
 
 markdown_extensions:
   - def_list

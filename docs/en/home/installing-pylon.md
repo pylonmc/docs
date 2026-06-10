@@ -11,7 +11,6 @@
 5. [Install some addons.](list-of-addons.md)
 6. That's it!
 
-### Where is Rebar data stored?
-
-You might notice that Rebar does not use a database and does not seem to have any storage files in its plugin folder. This is because Rebar stores everything inside the world file itself in the same way that Minecraft does! You don't need to worry about backing up any data besides your worlds: **Rebar's data will always be consistent with the world's data.** This also means that Rebar is *much* less succeptible to data corruption than other similar plugins.
+??? question "Where is Rebar data stored?"
+    You might notice that Rebar does not use a database and does not seem to have any storage files in its plugin folder. This is because Rebar stores everything inside the world file itself in the same way that Minecraft does! You don't need to worry about backing up any data besides your worlds: **Rebar's data will always be consistent with the world's data.** This also means that Rebar is *much* less succeptible to data corruption than other similar plugins.
 

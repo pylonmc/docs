@@ -70,7 +70,7 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 - [ ] Culling
 - [ ] Packet based entities
 - [ ] Textures
-- [ ] Test suite
+- [ ] Automated tests
 
 ## Contributing
 - [x] Getting started
@@ -79,5 +79,4 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 - [x] Custom Dokka (migrate from getting started)
 - [x] Contributing to docs
 - [ ] Contributing guidelines (including AI usage)
-- [ ] Testing (migrate from getting started and add basic manual testing guidelines)
 

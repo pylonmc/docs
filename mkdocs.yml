@@ -35,6 +35,8 @@ nav:
     - Installing Pylon: home/installing-pylon.md
     - List of addons: home/list-of-addons.md
     - Commands & permissions: home/commands-and-permissions.md
+    - Compatibility: home/compatibility.md
+    - Placeholders: home/placeholders.md
     - Documentation progress: progress.md
   - Creating addons:
     - Tutorial 0 - Getting started: creating-addons/tutorial-0.md
@@ -63,7 +65,7 @@ nav:
       - Fluids: documentation/internals/fluids.md
       - Cargo: documentation/internals/cargo.md
       - Internationalization: documentation/internals/i18n.md
-      - Recipe autocompletion hellscape: documentation/internals/recipe-autocompletion.md
+      - Recipe hellscape: documentation/internals/recipe-hellscape.md
     - Contributing:
       - Getting started: documentation/contributing/getting-started.md
       - Parallel dev repo: documentation/contributing/parallel-dev-repo.md

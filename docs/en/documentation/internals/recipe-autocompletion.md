@@ -1,5 +1,7 @@
 !!! abstract "Author: Vaan1310"
 
+# outdated; due to be removed when this is rewritten
+
 In order to not have pylon items autocomplete into vanilla recipes, we have to use NMS and override 2 behaviours:
 - Item movement to crafting table
 - The accounting logic for recipes

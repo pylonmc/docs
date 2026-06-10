@@ -50,6 +50,7 @@ nav:
       - Blocks:
         - Creating new blocks: documentation/reference/blocks/creating-new-blocks.md
         - Block interfaces: documentation/reference/blocks/interfaces.md
+        - Interface quick reference: documentation/reference/blocks/interface-quick-reference.md
         - Persistent data: documentation/reference/blocks/persistent-data.md
         - WAILA: documentation/reference/blocks/waila.md
         - Settings: documentation/reference/blocks/settings.md

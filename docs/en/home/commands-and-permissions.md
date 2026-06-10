@@ -33,3 +33,4 @@
 |--------------------------------|-------------|
 | `rebar.guide.cheat`            | Allows you to use drop, ctrl+drop, or middle click to cheat in items from the Rebar guide |
 | `rebar.guide.view_admin_pages` | Allows you to see admin-only guide pages                                                  |
+

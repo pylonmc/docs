@@ -6,10 +6,10 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 
 - [x] Pylon main page
 - [x] Installing Pylon
-- [ ] Addon list
+- [x] Addon list
 - [x] Commands and permissions
 - [x] Compatibility
-- [ ] Placeholders
+- [x] Placeholders
 
 ## Creating addons
 
@@ -52,16 +52,26 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 
 - [x] Blocks
 - [x] Multiblocks
+- [ ] Configs
+    - [ ] ConfigSection
+    - [ ] Writing a config adapter
 - [ ] Language system
+    - [x] Tags
+    - [ ] Unit format
+    - [ ] Placeholders
+    - [ ] Progress bars
+- [ ] Fluid system
+    - [ ] Fluid system blocks
+    - [ ] Adding a new fluid
+    - [ ] Fluid tags
+    - [ ] Adding a new pipe
 - [ ] Items
 - [ ] Entities
-- [ ] Fluid system
 - [ ] Logistics system
 - [ ] Recipes
 - [ ] Guide pages/buttons
 - [ ] Resource pack support
-- [ ] Configs
-- [ ] RebarItemTypeWrapper
+- [ ] ItemTypeWrapper
 - [ ] MultiHandler system
 - [ ] Culling system
 
@@ -70,6 +80,7 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 - [x] Data-oriented interfaces
 - [x] Fluids
 - [x] Internationalization
+- [x] Recipes
 - [ ] Researches
 - [ ] BlockStorage
 - [ ] EntityStorage

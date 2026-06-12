@@ -32,8 +32,11 @@ To read from a ConfigSection, you can use the `get` or `getOrThrow` methods. The
     // x = 5
     ```
 
-??? question "How can I create my own config adapter?"
-    See the [config adapter docs page](config-adapter.md).
+!!! question "What config adapters are available?"
+    See the [builtin config adapters page](builtin-config-adapters.md).
+
+!!! question "How can I create my own config adapter?"
+    See the [config adapter docs page](custom-config-adapters.md).
 
 ## Copying & merging resources
 

@@ -21,23 +21,24 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 - [x] Tutorial 4 - Saving data to items
 - [ ] Tutorial 5 - Your first block
 - [ ] Tutorial 6 - Customising blocks
-- [ ] Tutorial 7 - Block tickers
-- [ ] Tutorial 8 - Saving data to blocks
-- [ ] Tutorial 9 - Processor blocks
-- [ ] Tutorial 10 - Recipe processor blocks
-- [ ] Tutorial 11 - Adding a new fluid
-- [ ] Tutorial 12 - Fluid blocks
-- [ ] Tutorial 13 - Fluid items
-- [ ] Tutorial 14 - Creating GUIs
-- [ ] Tutorial 15 - The Rebar guide
-- [ ] Tutorial 16 - Virtual inventories
-- [ ] Tutorial 17 - Logistic blocks
-- [ ] Tutorial 18 - Processors
-- [ ] Tutorial 19 - Multiblocks
-- [ ] Tutorial 20 - Using display entities
-- [ ] Tutorial 21 - Adding a new recipe type
-- [ ] Tutorial 22 - Your first entity
-- [ ] Tutorial 23 - Customising researches
+- [ ] Tutorial 7 - WAILA
+- [ ] Tutorial 8 - Block tickers
+- [ ] Tutorial 9 - Saving data to blocks
+- [ ] Tutorial 10 - Processor blocks
+- [ ] Tutorial 11 - Recipe processor blocks
+- [ ] Tutorial 12 - Adding a new fluid
+- [ ] Tutorial 13 - Fluid blocks
+- [ ] Tutorial 14 - Fluid items
+- [ ] Tutorial 15 - Creating GUIs
+- [ ] Tutorial 16 - The Rebar guide
+- [ ] Tutorial 17 - Virtual inventories
+- [ ] Tutorial 18 - Logistic blocks
+- [ ] Tutorial 19 - Processors
+- [ ] Tutorial 20 - Multiblocks
+- [ ] Tutorial 21 - Using display entities
+- [ ] Tutorial 22 - Adding a new recipe type
+- [ ] Tutorial 23 - Your first entity
+- [ ] Tutorial 24 - Custom researches
 
 ### Discussions
 (leave to Idra pls)
@@ -74,6 +75,7 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 - [ ] ItemTypeWrapper
 - [ ] MultiHandler system
 - [ ] Culling system
+- [ ] Researches
 
 ## Internals
 - [x] Cargo

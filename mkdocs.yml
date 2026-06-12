@@ -58,6 +58,10 @@ nav:
         - Multiblock state: documentation/reference/multiblocks/multiblock-state.md
         - Interacting with components: documentation/reference/multiblocks/interacting-with-components.md
         - Custom multiblocks: documentation/reference/multiblocks/custom-multiblocks.md
+      - Configs:
+          - Config sections: documentation/reference/configs/config-sections.md
+          - Builtin config adapters: documentation/reference/configs/builtin-config-adapters.md
+          - Custom config adapters: documentation/reference/configs/custom-config-adapters.md
       - Language system:
         - Tags: documentation/reference/language-system/tags.md
     - Internals:

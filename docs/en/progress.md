@@ -53,10 +53,10 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 
 - [x] Blocks
 - [x] Multiblocks
-- [ ] Configs
+- [x] Configs
     - [x] ConfigSection
-    - [ ] Builtin config adapters
-    - [ ] Writing a config adapter
+    - [x] Builtin config adapters
+    - [x] Writing a config adapter
 - [ ] Language system
     - [x] Tags
     - [ ] Unit format

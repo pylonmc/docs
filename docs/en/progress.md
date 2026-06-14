@@ -58,7 +58,7 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
   - [x] Persistent data
   - [ ] WAILA (TODO waila overrides)
   - [x] Settings
-  - [ ] Recipe processors
+  - [ ] Processor blocks
 - [x] Multiblocks
   - [x] Simple multiblocks
   - [x] Multiblock state
@@ -96,7 +96,7 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
     - TODO (Justin)
 - [ ] Researches
     - TODO
-- [ ] Registries (1 page - unstable - keys being removed)
+- [ ] Registries (1 page)
 - [ ] Appendix
     - [ ] Using/creating PersistentDataTypes (Move from blocks persistent data page)
     - [ ] Addon lifecycle (startup/shutdown)
@@ -116,6 +116,7 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 - [ ] Packet based entities
 - [ ] Textures
 - [ ] Automated tests
+- [ ] The history of BlockStorage
 - [ ] The schema debacle
 
 ## Contributing

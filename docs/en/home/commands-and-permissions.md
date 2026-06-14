@@ -17,6 +17,7 @@
 | `/rb give <player> <item> [amount]`              | `rebar.command.give`                     | Gives a player a Rebar item
 | `/rb key`                                        | `rebar.command.key`                      | Shows you the key of the Rebar item you're holding in your hand
 | `/rb setblock <x> <y> <z> <block>`               | `rebar.command.setblock`                 | Sets the given Rebar block at the coordinates provided
+| `/rb reloadlang`                                 | `rebar.command.research.reloadlang`      | Reloads all language files from the `plugins/Rebar/lang` directory
 | `/rb research add <player> <research>`           | `rebar.command.research.add`             | Adds the given research to a player
 | `/rb research list <player> <research>`          | `rebar.command.research.list`            | Lists the researches a player has
 | `/rb research addall <player>`                   | `rebar.command.research.addall`          | Adds all researches to a player

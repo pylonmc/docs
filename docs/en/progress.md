@@ -97,6 +97,8 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 - [ ] Researches
     - TODO
 - [ ] Registries (1 page)
+- [ ] Gametests
+    - TODO (Seggan)
 - [ ] Appendix
     - [ ] Using/creating PersistentDataTypes (Move from blocks persistent data page)
     - [ ] Addon lifecycle (startup/shutdown)

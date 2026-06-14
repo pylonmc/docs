@@ -122,3 +122,6 @@ public class ExampleBlock extends RebarBlock {
 
 ![Completely custom WAILA](img/completely-custom-waila.png){ width="400" }
 
+### WAILA overrides
+
+TODO

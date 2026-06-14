@@ -77,3 +77,15 @@ h6 {
 .addon-status-broken {
     color: #ff0000;
 }
+
+.compatibility-status-minor-incompatibilities {
+    color: #92d691;
+}
+
+.compatibility-status-moderate-incompatibilities {
+    color: #d6b891;
+}
+
+.compatibility-status-do-not-use {
+    color: #d69191;
+}

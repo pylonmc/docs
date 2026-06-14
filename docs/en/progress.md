@@ -51,32 +51,57 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 
 ### Documentation
 
-- [x] Blocks
+- [ ] Blocks
+  - [ ] Creating new blocks (TODO explain place context)
+  - [x] Block interfaces
+  - [x] Interface quick reference
+  - [x] Persistent data
+  - [ ] WAILA (TODO waila overrides)
+  - [x] Settings
+  - [ ] Recipe processors
 - [x] Multiblocks
+  - [x] Simple multiblocks
+  - [x] Multiblock state
+  - [x] Interacting with components
+  - [x] Custom multiblocks
 - [x] Configs
     - [x] ConfigSection
     - [x] Builtin config adapters
     - [x] Writing a config adapter
 - [ ] Language system
     - [x] Tags
-    - [ ] Unit format
+    - [ ] Unit format (unstable - Seggan planning to add derived units)
     - [ ] Placeholders
     - [ ] Progress bars
 - [ ] Fluid system
-    - [ ] Fluid system blocks
-    - [ ] Adding a new fluid
-    - [ ] Fluid tags
-    - [ ] Adding a new pipe
+    - [x] Adding a new fluid
+    - [x] Fluid system blocks
+    - [x] Fluid tags
+    - [ ] Fluid hatches (unstable - changed by electricity PR)
 - [ ] Items
-- [ ] Entities
-- [ ] Logistics system
+    - TODO
+- [ ] Entities (unstable - not used very much yet so will probably evolve)
+    - TODO
+- [ ] Logistics system (unstable - potential big changes coming to logistics slots)
+    - TODO
 - [ ] Recipes
+    - TODO
 - [ ] Guide pages/buttons
+    - TODO
 - [ ] Resource pack support
-- [ ] ItemTypeWrapper
+    - TODO (Consult w/ Pandicka/Justin)
 - [ ] MultiHandler system
+    - TODO (Justin)
 - [ ] Culling system
+    - TODO (Justin)
 - [ ] Researches
+    - TODO
+- [ ] Registries (1 page - unstable - keys being removed)
+- [ ] Appendix
+    - [ ] Using/creating PersistentDataTypes (Move from blocks persistent data page)
+    - [ ] Addon lifecycle (startup/shutdown)
+    - [ ] BlockPosition and ChunkPosition
+    - [ ] ItemTypeWrapper
 
 ## Internals
 - [x] Cargo
@@ -91,6 +116,7 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 - [ ] Packet based entities
 - [ ] Textures
 - [ ] Automated tests
+- [ ] The schema debacle
 
 ## Contributing
 - [x] Getting started

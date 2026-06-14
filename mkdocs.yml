@@ -53,6 +53,10 @@ nav:
         - Persistent data: documentation/reference/blocks/persistent-data.md
         - WAILA: documentation/reference/blocks/waila.md
         - Settings: documentation/reference/blocks/settings.md
+      - Fluids:
+        - Adding a new fluid: documentation/reference/fluids/adding-a-new-fluid.md
+        - Fluid system blocks: documentation/reference/fluids/fluid-system-blocks.md
+        - Fluid tags: documentation/reference/fluids/fluid-tags.md
       - Multiblocks:
         - Simple multiblocks: documentation/reference/multiblocks/simple-multiblocks.md
         - Multiblock state: documentation/reference/multiblocks/multiblock-state.md

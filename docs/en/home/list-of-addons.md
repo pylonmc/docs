@@ -42,6 +42,7 @@ These addons have been tested and verified to be robust, polished, balanced, and
 | Name | Author | AI usage | Status | Description | Link |
 |------|--------|----------|--------|-------------|----------|
 | **RebarWrench** | lijinhong11 (mmmjjkx) | <span class="addon-ai-minimal">Minimal</span> | <span class="addon-status-stable">Stable</span> | Adds a universal wrench to configurate Rebar blocks | [GitHub](https://github.com/lijinhong11/RebarWrench) |
+| **Prospecting** | lijinhong11 (mmmjjkx) | <span class="addon-ai-undisclosed">Undisclosed</span> | <span class="addon-status-development">Development</span> | An addon allows you to sift sand in rivers with tiered prospecting pans to get rewards | [GitHub](https://github.com/lijinhong11/Prospecting) |
 | **RebarRank** | Idra | <span class="addon-ai-minimal">Minimal</span> | <span class="addon-status-development">Development</span> | Adds a simple rankup system which ranks up players when they obtain certain Rebar items. | [GitHub](https://github.com/LordIdra/RebarRank) |
 | **Gantry** | glomdom | <span class="addon-ai-minimal">Minimal</span> | <span class="addon-status-development">Development</span> | An overhaul mod intending to provide a parallel progression to Pylon, with a focus on complex recipe chains. | [GitHub](https://github.com/glomdom/gantry) |
 

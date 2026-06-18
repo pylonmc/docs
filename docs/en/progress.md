@@ -52,13 +52,13 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
 ### Documentation
 
 - [ ] Blocks
-  - [ ] Creating new blocks (TODO explain place context)
+  - [ ] Creating new blocks - Idra (TODO explain place context, mention pick override and similar)
   - [x] Block interfaces
   - [x] Interface quick reference
   - [x] Persistent data
-  - [ ] WAILA (TODO waila overrides)
+  - [ ] WAILA - Idra (TODO waila overrides)
   - [x] Settings
-  - [ ] Processor blocks
+  - [ ] Processor blocks - Idra
 - [x] Multiblocks
   - [x] Simple multiblocks
   - [x] Multiblock state
@@ -70,40 +70,42 @@ See the [docs contribution guide](documentation/contributing/contributing-to-doc
     - [x] Writing a config adapter
 - [ ] Language system
     - [x] Tags
-    - [ ] Unit format (unstable - Seggan planning to add derived units)
-    - [ ] Placeholders
-    - [ ] Progress bars
+    - [ ] Unit format - Seggan (unstable - Seggan planning to add derived units)
+    - [ ] Placeholders - Seggan
+    - [ ] Progress bars - Idra (added not too long ago so might still change)
 - [ ] Fluid system
     - [x] Adding a new fluid
     - [x] Fluid system blocks
     - [x] Fluid tags
-    - [ ] Fluid hatches (unstable - changed by electricity PR)
-- [ ] Items
+    - [ ] Fluid hatches - Idra (unstable - changed by electricity PR)
+- [ ] Items - Anyone
     - TODO
-- [ ] Entities (unstable - not used very much yet so will probably evolve)
+- [ ] Entities - Anyone (unstable - not used very much yet so will probably evolve)
     - TODO
-- [ ] Logistics system (unstable - potential big changes coming to logistics slots)
+- [ ] Working with displays - Idra
     - TODO
-- [ ] Recipes
+- [ ] Logistics system - Idra (unstable - potential big changes coming to logistics slots)
     - TODO
-- [ ] Guide pages/buttons
+- [ ] Recipes - Anyone
     - TODO
-- [ ] Resource pack support
-    - TODO (Consult w/ Pandicka/Justin)
-- [ ] MultiHandler system
-    - TODO (Justin)
-- [ ] Culling system
-    - TODO (Justin)
-- [ ] Researches
+- [ ] Guide pages/buttons - Idra
     - TODO
-- [ ] Registries (1 page)
-- [ ] Gametests
-    - TODO (Seggan)
+- [ ] Resource pack support - Anyone? Consult with Pandicka/Justin
+    - TODO
+- [ ] MultiHandler system - Justin
+    - TODO
+- [ ] Culling system - Justin
+    - TODO
+- [ ] Researches - Anyone
+    - TODO
+- [ ] Registries (1 page) - Anyone
+- [ ] Gametests - Seggan
+    - TODO
 - [ ] Appendix
-    - [ ] Using/creating PersistentDataTypes (Move from blocks persistent data page)
-    - [ ] Addon lifecycle (startup/shutdown)
-    - [ ] BlockPosition and ChunkPosition
-    - [ ] ItemTypeWrapper
+    - [ ] Using/creating PersistentDataTypes - Idra (Move from blocks persistent data page)
+    - [ ] Addon lifecycle - Idra (startup/shutdown)
+    - [ ] BlockPosition and ChunkPosition (and why they exist and when to use them) - Anyone
+    - [ ] ItemTypeWrapper - Anyone
 
 ## Internals
 - [x] Cargo

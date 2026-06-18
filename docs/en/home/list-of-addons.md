@@ -41,6 +41,8 @@ These addons have been tested and verified to be robust, polished, balanced, and
 
 | Name | Author | AI usage | Status | Description | Link |
 |------|--------|----------|--------|-------------|----------|
+| **RebarWorldedit** | balugaq | <span class="addon-ai-minimal">Minimal</span> | <span class="addon-status-stable">Stable</span> | Adds Rebar Worldedit Wand that allows OP to edit the world with Rebar blocks | [GitHub](https://github.com/balugaq/RebarWorldedit) |
+| **ConstructionWand** | balugaq | <span class="addon-ai-minimal">Minimal</span> | <span class="addon-status-stable">Stable</span> | Adds wands that assist you to build your castles more easily | [GitHub](https://github.com/balugaq/construction-wand) |
 | **DoraMachines** | TagDL | <span class="addon-ai-minimal">Minimal</span> | <span class="addon-status-stable">Stable</span> | Adds some interesting tools and blocks | [GitHub](https://github.com/TagDL/DoraMachines) |
 | **RebarWrench** | lijinhong11 (mmmjjkx) | <span class="addon-ai-minimal">Minimal</span> | <span class="addon-status-stable">Stable</span> | Adds a universal wrench to configurate Rebar blocks | [GitHub](https://github.com/lijinhong11/RebarWrench) |
 | **Prospecting** | lijinhong11 (mmmjjkx) | <span class="addon-ai-undisclosed">Undisclosed</span> | <span class="addon-status-development">Development</span> | An addon allows you to sift sand in rivers with tiered prospecting pans to get rewards | [GitHub](https://github.com/lijinhong11/Prospecting) |

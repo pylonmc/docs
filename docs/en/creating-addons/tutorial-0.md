@@ -48,11 +48,13 @@ Now let's get into it!
 ## Setting up
 
 
-### Forking the template
+### Create your addon repository from template
 
-Rebar has an [addon template](https://github.com/pylonmc/rebar-addon-template) you can use, which comes with everything you need to write a Rebar addon. [Create a fork of the template](https://www.geeksforgeeks.org/git/how-to-fork-a-github-repository/). Then, [clone your fork](https://www.geeksforgeeks.org/git/how-to-git-clone-a-remote-repository/).
+Rebar has an [addon template](https://github.com/pylonmc/rebar-addon-template) you can use, which comes with everything you need to write a Rebar addon.
 
-Next, open your fork in IntelliJ. 
+In the template repository, [create a repository of the template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template). Then, [clone your repository](https://www.geeksforgeeks.org/git/how-to-git-clone-a-remote-repository/).
+
+Next, open your repository in IntelliJ. 
 
 It might take a few minutes for IntelliJ to import the project.
 

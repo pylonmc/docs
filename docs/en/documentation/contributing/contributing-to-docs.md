@@ -64,10 +64,22 @@ git clone <REPLACE_URL_HERE>
 ```
 
 ---
+## Step 3: Activating the Python virtual environment
+Now that you have the repository on your local machine, you need to activate the Python environment in your shell.
 
-## Step 3: Installing dependencies
+In the `docs` directory, run:
 
-Now that you have the repository on your local machine, you need to install the required dependencies.
+```bash
+source ./venv/bin/activate
+```
+
+This will activate the Python environment in your shell, where it will be active until you close that instance of your shell.
+
+---
+
+## Step 4: Installing dependencies
+
+Once the Python environment is activated, you need to install the required dependencies.
 
 In the `docs` directory, run:
 
@@ -79,7 +91,7 @@ This will install MkDocs and all other necessary packages.
 
 ---
 
-## Step 4: Making your changes
+## Step 5: Making your changes
 
 Now you can start editing the documentation files!
 
@@ -88,7 +100,7 @@ Now you can start editing the documentation files!
 
 The documentation files are written in Markdown. If you need help with the syntax, you can consult [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) or review [the Markdown file for this page](https://github.com/pylonmc/docs/blob/main/docs/en/documentation/contributing/contributing-to-docs.md?plain=1).
 
-### 4.1 Understanding the documentation structure
+### 5.1 Understanding the documentation structure
 
 The documentation is organized by language in the `docs/` directory:
 
@@ -106,7 +118,7 @@ For English documentation, all pages are located in `docs/en/`. The content is o
 
 Each section has its own directory, and images for that section should be placed in an `img/` folder within the same directory.
 
-### 4.2 Creating a new page
+### 5.2 Creating a new page
 
 Open your code editor in the `docs` directory and follow these steps:
 
@@ -127,14 +139,14 @@ Then:
 2. Save the file
 3. Preview your changes (see [Step 5](#step-5-previewing-your-changes))
 
-### 4.3 Editing an existing page
+### 5.3 Editing an existing page
 
 1. Open the file you want to edit in your code editor
 2. Make your changes
 3. Save the file
 4. Preview your changes (see [Step 5](#step-5-previewing-your-changes))
 
-### 4.4 Adding images
+### 5.4 Adding images
 
 #### Image naming conventions
 
@@ -171,7 +183,7 @@ To embed an image in your markdown file, use the following syntax:
 
 ---
 
-## Step 5: Previewing your changes
+## Step 6: Previewing your changes
 
 Before submitting your changes, it's a good idea to preview them locally to make sure everything looks correct.
 
@@ -187,7 +199,7 @@ The preview will automatically update when you save changes to the files.
 
 ---
 
-## Step 6: Committing and pushing your changes
+## Step 7: Committing and pushing your changes
 
 Once you're happy with your changes, you need to commit and push them to your fork.
 
@@ -206,7 +218,7 @@ git push
 
 ---
 
-## Step 7: Creating a pull request
+## Step 8: Creating a pull request
 
 Once you pushed your changes to your fork on GitHub, you can create a pull request to submit your changes.
 
@@ -221,7 +233,7 @@ That's it! Your changes will be reviewed by the maintainers. If everything looks
 
 ---
 
-## Step 8: Making changes to your Pull Request
+## Step 9: Making changes to your pull request
 
 If you have already submitted a pull request but need to make changes (for example, if a reviewer requested changes), you can do that easily.
 

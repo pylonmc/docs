@@ -74,6 +74,7 @@ nav:
       - Cargo: documentation/internals/cargo.md
       - Internationalization: documentation/internals/i18n.md
       - Recipe hellscape: documentation/internals/recipe-hellscape.md
+      - Electricity: documentation/internals/electricity.md
     - Contributing:
       - Getting started: documentation/contributing/getting-started.md
       - Parallel dev repo: documentation/contributing/parallel-dev-repo.md

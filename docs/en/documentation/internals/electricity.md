@@ -35,7 +35,7 @@ In order to distribute power from producers to consumers, the code uses a greedy
 ### Consumer tick
 1. Set every consumer requiring more than 0 energy to unpowered.
 2. Assign power to consumers using a round robin bucket fill: distribute equal amounts of energy from the total. If any consumer is assigned more energy than it requires, distribute the surplus among the rest.
-3. If any consumer does not have enough power assigned to it, remove the consumer that requires the least amount of power and go back to step 2. Otherwise, proceed to step 4.
+3. If any consumer does not have enough power assigned to it, remove the consumer that requires the most amount of power and go back to step 2. Otherwise, proceed to step 4.
 4. Assign "power taken" values to producers using the same round robin bucket fill algorithm, except using the power production as the limit.
 5. For every consumer:
     1. For every producer available:

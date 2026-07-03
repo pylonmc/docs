@@ -19,6 +19,7 @@ These are all the plugins known to cause issues with Rebar.
 | Axiom                             | <span class="compatibility-status-minor-incompatibilities">Minor incompatibilities</span> | Works fine but do not try to edit Rebar blocks using Axiom. |
 | InteractiveChat                   | <span class="compatibility-status-minor-incompatibilities">Minor incompatibilities</span> | Works fine but Rebar messages shown in InteractiveChat are sometimes not translated correctly. |
 | CMI                               | <span class="compatibility-status-minor-incompatibilities">Minor incompatibilities</span> | Works fine but items shown in chat with `[item]` are not translated correctly. |
+| MCMMO                             | <span class="compatibility-status-minor-incompatibilities">Minor incompatibilities</span> | Iron hammer does not work because McMMO thinks the player is trying to repair an item when they right click an iron block with the hammer |
 | CraftEngine                       | <span class="compatibility-status-moderate-incompatibilities">Moderate incompatibilities</span> (mitigation available) | Breaks some of Rebar's recipes. If needed, you can modify the affected recipes to fix them by running `/rb exposerecipes` and editing the recipe files. |
 | RoseStacker                       | <span class="compatibility-status-do-not-use">Do not use</span> | Introduces duplication bugs with Rebar items |
 

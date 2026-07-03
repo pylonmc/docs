@@ -125,6 +125,7 @@
         | RedstoneRebarBlockHandler | [Javadocs :material-arrow-right:](https://pylonmc.github.io/rebar/docs/javadoc/io/github/pylonmc/rebar/block/interfaces/RedstoneRebarBlockHandler.html)|
         | ShearRebarBlockHandler | [Javadocs :material-arrow-right:](https://pylonmc.github.io/rebar/docs/javadoc/io/github/pylonmc/rebar/block/interfaces/ShearRebarBlockHandler.html)|
         | SignRebarBlockHandler | [Javadocs :material-arrow-right:](https://pylonmc.github.io/rebar/docs/javadoc/io/github/pylonmc/rebar/block/interfaces/SignRebarBlockHandler.html)|
+        | StructureGrowRebarBlockHandler | [Javadocs :material-arrow-right:](https://pylonmc.github.io/rebar/docs/javadoc/io/github/pylonmc/rebar/block/interfaces/StructureGrowRebarBlockHandler.html)|
         | SpongeRebarBlockHandler | [Javadocs :material-arrow-right:](https://pylonmc.github.io/rebar/docs/javadoc/io/github/pylonmc/rebar/block/interfaces/SpongeRebarBlockHandler.html)|
         | TargetRebarBlockHandler | [Javadocs :material-arrow-right:](https://pylonmc.github.io/rebar/docs/javadoc/io/github/pylonmc/rebar/block/interfaces/TargetRebarBlockHandler.html)|
         | TNTRebarBlockHandler | [Javadocs :material-arrow-right:](https://pylonmc.github.io/rebar/docs/javadoc/io/github/pylonmc/rebar/block/interfaces/TNTRebarBlockHandler.html)|
